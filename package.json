@@ -2,7 +2,10 @@
   "name": "nor-lint",
   "version": "0.1.0",
   "description": "Sendanor Project Lint Utility",
-  "main": "src/lint.js",
+  "main": "src/lib/index.js",
+  "bin": {
+    "nor-lint": "./src/bin/lint.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +24,10 @@
   },
   "homepage": "https://github.com/sendanor/nor-lint",
   "dependencies": {
-    "optimist": ">= 0.6.1 <0.7.0"
+    "optimist": ">= 0.6.1 <0.7.0",
+    "semver": ">= 2.2.1 < 2.3.0",
+    "nor-fs": ">= 0.1.4 < 0.2.0",
+    "nor-is": ">= 0.1.10 < 0.2.0",
+    "nor-debug": ">= 0.1.21 < 0.2.0"
   }
 }
