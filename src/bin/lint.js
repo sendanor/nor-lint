@@ -67,6 +67,8 @@ try {
 	
 	// TODO: Search dependencies with newer available upstream versions
 
+	// TODO: Search dependencies with bad style version specs like "*" instead of ">= 1.0.0 <1.2.0" or "1.0.0"
+
 	/* Handle results */
 	if(warnings.length === 0) {
 		console.log('No warnings.');
