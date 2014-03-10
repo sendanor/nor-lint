@@ -1,0 +1,26 @@
+{
+  "name": "nor-lint",
+  "version": "0.1.0",
+  "description": "Sendanor Project Lint Utility",
+  "main": "src/lint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sendanor/nor-lint"
+  },
+  "keywords": [
+    "lint",
+    "npm"
+  ],
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sendanor/nor-lint/issues"
+  },
+  "homepage": "https://github.com/sendanor/nor-lint",
+  "dependencies": {
+    "optimist": ">= 0.6.1 <0.7.0"
+  }
+}
