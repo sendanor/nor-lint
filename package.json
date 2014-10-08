@@ -1,6 +1,6 @@
 {
   "name": "nor-lint",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Sendanor Project Lint Utility",
   "main": "src/lib/index.js",
   "bin": {
@@ -28,6 +28,6 @@
     "semver"    : ">= 2.2.1  < 2.3.0",
     "nor-fs"    : ">= 0.1.10  < 0.2.0",
     "nor-is"    : ">= 0.1.14 < 0.2.0",
-    "nor-debug" : ">= 0.1.42 < 0.2.0"
+    "nor-debug" : ">= 0.1.43 < 0.2.0"
   }
 }
